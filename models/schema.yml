@@ -1,21 +1,21 @@
 version: 2
 
 models:
-  - name: stg_salesforce__customers
+  - name: stg_salesforce_customers
     columns:
       - name: customer_id
         data_tests:
           - unique
           - not_null
 
-  - name: stg_square__orders
+  - name: stg_square_orders
     columns:
       - name: order_id
         data_tests:
           - unique
           - not_null
 
-  - name: stg_salesforce__trucks
+  - name: stg_salesforce_trucks
     columns:
       - name: truck_id
         data_tests:
